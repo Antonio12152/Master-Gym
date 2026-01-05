@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Info - Master Gym</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="/">Master Gym</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto gap-2">
+                    <li class="nav-item"><a class="nav-link" href="/">Startseite</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/planen.html">Unsere Pläne</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/info.html">Über uns</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/faq.html">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" data-bs-toggle="modal" data-bs-target="#kontaktModal">
+                            Kontakt
+                        </a></li>
+                    <button id="darkToggle" class="btn btn-outline-light ms-3">
+                        🌙
+                    </button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="parallax-card bg-about">
+            <div class="overlay"></div>
+            <div class="container content fade-scroll">
+                <h1 class="mb-4">Über Master Gym</h1>
+                <p>
+                    Master Gym ist mehr als nur ein Fitnessstudio.
+                    Wir sind ein moderner Trainingsraum für alle,
+                    die ihre körperliche Leistungsfähigkeit,
+                    Gesundheit und Lebensqualität verbessern möchten.
+                </p>
+                <p>
+                    Unser Konzept verbindet Krafttraining,
+                    funktionelle Bewegung, Ausdauer und Rehabilitation
+                    in einer professionellen und motivierenden Umgebung.
+                </p>
+            </div>
+        </section>
+
+        <section class="parallax-card bg-what">
+            <div class="overlay"></div>
+            <div class="container content fade-scroll">
+                <h2 class="mb-4">
+                    <i class="fa-solid fa-dumbbell me-2"></i>
+                    Was wir machen
+                </h2>
+                <p>
+                    Bei Master Gym bieten wir individuelle Trainingslösungen
+                    für Anfänger, Fortgeschrittene und Profis.
+                    Unser Angebot reicht von klassischem Krafttraining
+                    über funktionelle Workouts bis hin zu Reha-Programmen.
+                </p>
+                <p>
+                    Wir arbeiten mit modernen Trainingsmethoden,
+                    hochwertigem Equipment und klar strukturierten
+                    Trainingsplänen, die auf deine Ziele abgestimmt sind.
+                </p>
+                <p>
+                    Sicherheit, korrekte Ausführung und nachhaltiger
+                    Fortschritt stehen bei uns immer im Fokus.
+                </p>
+            </div>
+        </section>
+
+        <section class="parallax-card bg-for">
+            <div class="overlay"></div>
+            <div class="container content fade-scroll">
+                <h2 class="mb-4">
+                    <i class="fa-solid fa-users me-2"></i>
+                    Für wen ist Master Gym?
+                </h2>
+                <p>
+                    Master Gym richtet sich an Menschen jeden Alters
+                    und jedes Fitnesslevels.
+                    Egal ob du Muskeln aufbauen, abnehmen,
+                    fitter werden oder nach einer Verletzung
+                    wieder einsteigen möchtest.
+                </p>
+                <p>
+                    Auch für Personen mit gesundheitlichen Einschränkungen
+                    oder Rehabilitationsbedarf bieten wir speziell
+                    angepasste Trainingsprogramme unter professioneller Betreuung.
+                </p>
+            </div>
+        </section>
+
+        <section class="parallax-card bg-values">
+            <div class="overlay"></div>
+            <div class="container content fade-scroll">
+                <h2 class="mb-4">
+                    <i class="fa-solid fa-heart-pulse me-2"></i>
+                    Unsere Werte
+                </h2>
+                <p>
+                    Qualität, Vertrauen und Verantwortung sind
+                    die Grundlage von Master Gym.
+                    Wir setzen auf ehrliche Beratung,
+                    individuelle Betreuung und realistische Ziele.
+                </p>
+                <p>
+                    Gesundheit steht bei uns über kurzfristigen Erfolgen.
+                    Deshalb legen wir großen Wert auf saubere Technik,
+                    Regeneration und langfristige Trainingsplanung.
+                </p>
+            </div>
+        </section>
+
+        <section class="parallax-card bg-future">
+            <div class="overlay"></div>
+            <div class="container content fade-scroll">
+                <h2 class="mb-4">
+                    <i class="fa-solid fa-arrow-trend-up me-2"></i>
+                    Blick in die Zukunft
+                </h2>
+                <p>
+                    Master Gym entwickelt sich stetig weiter.
+                    In Zukunft erweitern wir unser Angebot
+                    um digitale Trainingspläne,
+                    personalisierte Fortschrittsanalysen
+                    und neue Rehabilitationskonzepte.
+                </p>
+                <p>
+                    Unser Ziel ist es, ein Ort zu sein,
+                    an dem Training, Gesundheit und Motivation
+                    langfristig zusammenfinden.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- CTA Kontakt Card -->
+    <div class="modal fade" id="kontaktModal" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content border-0 rounded-4">
+
+                <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title">
+                        <i class="fa-solid fa-comments me-2"></i>
+                        Kontakt
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body p-0">
+                    <div class="row g-0">
+
+                        <div class="col-md-6 p-4 bg-dark text-white">
+                            <h6>Nachricht senden</h6>
+
+                            <form>
+                                <div class="mb-3">
+                                    <input type="text" id="name" name="name" class="form-control" placeholder="Name">
+                                </div>
+
+                                <div class="mb-3">
+                                    <input type="email" id="email" name="emial" class="form-control"
+                                        placeholder="E-Mail">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Betreff</label>
+                                    <select class="form-select" id="option" name="option">
+                                        <option>Allgemeine Anfrage</option>
+                                        <option>Probetraining</option>
+                                        <option>Rehabilitations-Programm</option>
+                                        <option>Mitgliedschaft</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-3">
+                                    <textarea class="form-control" id="text" name="text" rows="4"
+                                        placeholder="Nachricht"></textarea>
+                                </div>
+
+                                <input type="submit" class="btn btn-primary w-100"></input>
+                            </form>
+                        </div>
+
+                        <div class="col-md-6 p-4">
+                            <h6>Kontaktinformationen</h6>
+
+                            <ul class="list-unstyled">
+                                <li class="mb-3">
+                                    <i class="fa-solid fa-envelope me-2 text-primary"></i>
+                                    info@böhlen-gym.de
+                                </li>
+                                <li class="mb-3">
+                                    <i class="fa-solid fa-phone me-2 text-primary"></i>
+                                    +49 123 456 789
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-location-dot me-2 text-primary"></i>
+                                    Böhlen-straße 12<br>
+                                    Böhlen
+                                </li>
+                            </ul>
+                            <h3>
+                                Mochten Sie Kontaktformular grosser machen?
+                            </h3>
+
+                            <a href="/kontakt.html" class="btn btn-lg btn-outline-dark">
+                                Schreiben Sie hier!
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-primary text-white text-center py-3">
+        <a href="#" class="text-success me-3">Impressum</a>
+        <a href="#" class="text-success">Datenschutz</a>
+        <div class="mt-2">© 2025 Master Gym</div>
+    </footer>
+
+    <script src="./jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./index.js"></script>
+    <script src="./info.js"></script>
+</body>
+
+</html>
