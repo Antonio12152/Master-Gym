@@ -16,18 +16,6 @@ $(document).ready(function () {
             $(this).text("🌙");
         }
     });
-    // const fallingItems = $(".falling");
-
-    // fallingItems.each(function () {
-    //     const speed = Math.random() * 1.5 + 0.2;
-    //     const rotateSpeed = Math.random() * 0.5 + 0.2;
-
-    //     $(this).data("speed", speed);
-    //     $(this).data("rotate", rotateSpeed);
-
-    //     const randomX = Math.random() * window.innerWidth;
-    //     $(this).css("left", randomX + "px");
-    // });
 
     $(window).on("scroll", function () {
         const scrollTop = $(window).scrollTop();

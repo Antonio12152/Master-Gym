@@ -41,7 +41,7 @@ nav {
 }
 
 .dark-mode .nav-link {
-    color: #cbcccf;
+    color: #dcd9d2;
 }
 
 .dark-mode .btn-outline-light:hover {
@@ -173,13 +173,30 @@ footer {
 }
 
 .btn-light {
-    border: 1px solid black;
+    border: 1px solid #1B2632;
 }
 
 .accordion-item {
-    border: 1px solid black;
+    border: 1px solid #1B2632;
     border-radius: 20px;
 }
-.accordion-collapse{
-    border-top: 1px solid black;
+
+.dark-mode .accordion-button {
+    background-color: #1B2632;
+    color: #dcd9d2;
+    border-color: #dcd9d2;
+}
+
+.dark-mode .accordion-item {
+    background-color: #1B2632;
+    color: #dcd9d2;
+    border-color: #dcd9d2;
+}
+
+.accordion-collapse {
+    border-top: 1px solid #1B2632;
+}
+
+.dark-mode .modal-body {
+    color: black;
 }
