@@ -16,31 +16,6 @@ $(document).ready(function () {
             $(this).text("🌙");
         }
     });
-
-    $(window).on("scroll", function () {
-        const scrollTop = $(window).scrollTop();
-
-        fallingItems.each(function () {
-            const baseSpeed = $(this).data("speed");
-            const rotateSpeed = $(this).data("rotate");
-
-            const acceleration = scrollTop * 0.0013;
-
-            let y = scrollTop * (baseSpeed + acceleration);
-            let rotation = scrollTop * rotateSpeed;
-            console.log($("body").height())
-            if (y > $("body").height() - 300) {
-                $(this).hide();
-            } else {
-                $(this).show();
-                $(this).css(
-                    "transform",
-                    `translateY(${y}px) rotate(${rotation}deg)`
-                );
-            }
-        });
-    });
-
     $(function () {
 
         const $btnNormal = $("#btnNormal");
