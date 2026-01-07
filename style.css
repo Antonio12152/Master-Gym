@@ -68,6 +68,10 @@ nav {
     border-color: #dcd9d2;
 }
 
+.dark-mode .contact-info {
+    background-color: #eeeeee;
+}
+
 .dark-mode .btn-outline-light {
     color: #dcd9d2;
     border-color: #dcd9d2;
@@ -84,6 +88,15 @@ nav {
     border-radius: 1rem;
 }
 
+footer a {
+    color: #e3eee0 !important;
+    text-decoration: none;
+}
+
+.dark-mode footer a {
+    color: #fd851b !important;
+}
+
 footer a:hover {
     text-decoration: underline;
 }
@@ -93,25 +106,6 @@ body,
 .navbar,
 footer {
     transition: background-color 0.3s, color 0.3s;
-}
-
-.falling-layer {
-    position: absolute;
-    inset: 0;
-    height: 240vh;
-    pointer-events: none;
-    overflow: hidden;
-}
-
-.falling {
-    position: absolute;
-    max-width: 200px;
-    max-height: 200px;
-    z-index: -1;
-    top: -150px;
-    left: 0;
-    transform-origin: center center;
-    will-change: transform;
 }
 
 .parallax-card {
@@ -172,6 +166,14 @@ footer {
     transform: translateY(0);
 }
 
+p {
+    font-size: 1.1rem;
+}
+
+.fade-scroll p {
+    font-size: 1.2rem;
+}
+
 .btn-light {
     border: 1px solid #1B2632;
 }
@@ -181,10 +183,26 @@ footer {
     border-radius: 20px;
 }
 
+.accordion-button {
+    justify-content: space-between;
+}
+
+.accordion-button i {
+    transition: transform 0.3s ease;
+}
+
+.accordion-button:not(.collapsed) i {
+    transform: rotate(180deg);
+}
+
 .dark-mode .accordion-button {
     background-color: #1B2632;
     color: #dcd9d2;
     border-color: #dcd9d2;
+}
+
+.accordion-button::after {
+    display: none;
 }
 
 .dark-mode .accordion-item {
