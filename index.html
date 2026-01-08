@@ -9,6 +9,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Master Gym</title>
+    <meta name="Description"
+        content="Master Gym ist ein Fitnessstudio mit guten Preisen und einzigartigen Möglichkeiten! Hier erfahren Sie, was wir tun.">
+    <meta property="og:title" content="Master Gym">
+    <meta property="og:description"
+        content="Master Gym ist ein Fitnessstudio mit guten Preisen und einzigartigen Möglichkeiten! Hier erfahren Sie, was wir tun.">
+    <meta property="og:image" content="https://master-gym.netlify.app/img/small/hero1_1200x630.jpg">
+    <meta property="og:url" content="https://master-gym.netlify.app/">
+    <meta property="og:site_name" content="Master Gym">
+    <meta property="og:locate" content="de_DE">
 </head>
 
 <body class="d-flex flex-column min-vh-100">
@@ -163,16 +172,36 @@
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="./img/pic1.jpg" class="d-block w-100">
+                            <picture>
+                                <source media="(max-width: 576px)" srcset="./img/small/pic1_600x400.jpg">
+                                <source media="(max-width: 992px)" srcset="./img/small/pic1_1000x667.jpg">
+                                <source media="(min-width: 1200px)" srcset="./img/small/pic1_1300x867.jpg">
+                                <img src="./img/pic1.jpg" class="d-block w-100" alt="First picture of gym">
+                            </picture>
                         </div>
                         <div class="carousel-item">
-                            <img src="./img/pic2.jpg" class="d-block w-100">
+                            <picture>
+                                <source media="(max-width: 576px)" srcset="./img/small/pic2_600x400.jpg">
+                                <source media="(max-width: 992px)" srcset="./img/small/pic2_1000x667.jpg">
+                                <source media="(min-width: 1200px)" srcset="./img/small/pic2_1300x867.jpg">
+                                <img src="./img/pic2.jpg" class="d-block w-100" alt="Second picture of gym">
+                            </picture>
                         </div>
                         <div class="carousel-item">
-                            <img src="./img/pic3.jpg" class="d-block w-100">
+                            <picture>
+                                <source media="(max-width: 576px)" srcset="./img/small/pic3_600x400.jpg">
+                                <source media="(max-width: 992px)" srcset="./img/small/pic3_1000x667.jpg">
+                                <source media="(min-width:1200px)" srcset="./img/small/pic3_1300x867.jpg">
+                                <img src="./img/pic3.jpg" class="d-block w-100" alt="Third picture of gym">
+                            </picture>
                         </div>
                         <div class="carousel-item">
-                            <img src="./img/pic4.jpg" class="d-block w-100">
+                            <picture>
+                                <source media="(max-width: 576px)" srcset="./img/small/pic4_600x400.jpg">
+                                <source media="(max-width: 992px)" srcset="./img/small/pic4_1000x667.jpg">
+                                <source media="(max-width: 1200px)" srcset="./img/small/pic4_1300x867.jpg">
+                                <img src="./img/pic4.jpg" class="d-block w-100" alt="Fourth picture of gym">
+                            </picture>
                         </div>
                     </div>
 
@@ -194,8 +223,9 @@
 
 
     <footer class="bg-primary text-white text-center py-3">
-                <a href="./datenschutz/impressum.html" class=" me-3">Impressum</a>
-        <a href="./datenschutz/datenschutz.html" class="">Datenschutz</a>                <div class="mt-2">© 2025 Master Gym</div>
+        <a href="./datenschutz/impressum.html" class=" me-3">Impressum</a>
+        <a href="./datenschutz/datenschutz.html" class="">Datenschutz</a>
+        <div class="mt-2">© 2025 Master Gym</div>
     </footer>
 
     <!-- CTA Kontakt Card -->
