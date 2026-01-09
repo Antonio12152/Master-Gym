@@ -138,25 +138,25 @@ Projektplanung & Grundstruktur Aufgaben:
 
 Projektidee & Seitenstruktur planen: 1 Stunde  
 
-Grundgerüst mit HTML5 erstellen: 2 Stunde  
+Grundgerüst mit HTML5 erstellen: 2 Stunden 
 
 Navigation und Seitenabschnitte anlegen: 10 Minuten  
 
-CSS-Styling: 2 Stunde  
+CSS-Styling: 2 Stunden 
 
 Milestone 2 - 2  
 
 Tage Design & Inhalt Aufgaben:  
 
-CSS-Styling: 1 Stunden  
+CSS-Styling: 1 Stunde 
 
 Responsive Design: 30 Minuten  
 
-Einbindung von Bildern und Textinhalten: 1 Stunden  
+Einbindung von Bildern und Textinhalten: 1 Stunde 
 
 JavaScript für einfache Interaktionen: 30 Minuten 
 
-Code-Optimierung und Strukturierung: 2 Stunde  
+Code-Optimierung und Strukturierung: 2 Stunden 
 
 Milestone 3 - 3 Tage  
 
@@ -168,7 +168,13 @@ SEO-Grundlagen (Meta-Tags, google search console): 1 Stunde
 
 Deployment auf Netlify: 30 Minuten  
 
-Dokumentation & Projektabgabe: 2 Stunde  
+Dokumentation & Projektabgabe: 2 Stunden 
+
+Milestone 4 - 4 Tage 
+
+Anpassen von Stilen in HTML: 
+
+CSS-Styling+HTML: 2 Stunden 
 
 5. Umsetzung 
 
